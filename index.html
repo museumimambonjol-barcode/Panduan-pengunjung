@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panduan Pengunjung — Museum Tuanku Imam Bonjol</title>
+  <meta name="description" content="Panduan penggunaan layar informasi interaktif Museum Tuanku Imam Bonjol, Kabupaten Pasaman, Sumatera Barat.">
+  <meta name="theme-color" content="#121110">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,500,0,0&display=block" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body id="atas">
+  <a class="lewati" href="#konten">Lewati ke isi panduan</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="topbar">
+    <div class="wadah topbar-isi">
+      <a class="merek" href="#atas" aria-label="Beranda panduan">
+        <span class="merek-ikon ms" aria-hidden="true">account_balance</span>
+        <span class="merek-teks">
+          <strong>Museum Tuanku Imam Bonjol</strong>
+          <small>Panduan Pengunjung</small>
+        </span>
+      </a>
+      <button class="tombol-menu" type="button" aria-expanded="false" aria-controls="nav-utama">
+        <span class="ms" aria-hidden="true">menu</span>
+        <span class="sr">Buka menu</span>
+      </button>
+      <nav id="nav-utama" class="nav-utama" aria-label="Navigasi utama">
+        <a href="#topik">Semua Topik</a>
+        <a href="#memulai">Memulai</a>
+        <a href="#koleksi">Koleksi</a>
+        <a href="#denah">Denah</a>
+        <a href="#kunjungan">Info Kunjungan</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="wadah hero-isi">
+      <div class="hero-teks">
+        <p class="eyebrow">Panduan Pengunjung</p>
+        <h1>Cara Menggunakan Layar Informasi Museum</h1>
+        <p class="hero-lead">
+          Layar informasi interaktif Museum Tuanku Imam Bonjol membantu Anda menjelajahi koleksi,
+          sejarah perjuangan, denah ruangan, hingga destinasi wisata Pasaman. Semua menu cukup
+          dioperasikan dengan <strong>sentuhan jari</strong>.
+        </p>
+        <div class="hero-aksi">
+          <a class="tombol tombol-emas" href="#memulai">
+            Mulai dari Awal <span class="ms" aria-hidden="true">arrow_forward</span>
+          </a>
+          <a class="tombol tombol-garis" href="#topik">Lihat Semua Topik</a>
+        </div>
+      </div>
+
+      <!-- Ilustrasi tampilan Beranda layar kios -->
+      <figure class="layar-mock" aria-label="Ilustrasi tampilan Beranda pada layar informasi">
+        <div class="layar-bingkai">
+          <div class="layar-atas">
+            <span class="layar-judul">MUSEUM IMAM BONJOL</span>
+            <span class="layar-jam">09:30</span>
+          </div>
+          <p class="layar-sapa">Selamat Datang</p>
+          <div class="layar-grid">
+            <span><i class="ms">account_balance</i>Profil Museum</span>
+            <span><i class="ms">auto_awesome_motion</i>Koleksi Museum</span>
+            <span><i class="ms">map</i>Denah Museum</span>
+            <span><i class="ms">explore</i>Wisata Pasaman</span>
+            <span><i class="ms">movie_filter</i>Galeri Video</span>
+            <span><i class="ms">info</i>Tentang</span>
+          </div>
+        </div>
+        <figcaption>Tampilan Beranda: enam menu utama siap disentuh.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= DAFTAR TOPIK ================= -->
+  <section id="topik" class="bagian">
+    <div class="wadah">
+      <p class="eyebrow">Daftar Panduan</p>
+      <h2 class="judul-bagian">Pilih topik yang ingin Anda pelajari</h2>
+      <ul class="grid-topik">
+        <li><a href="#memulai"><span class="ms">touch_app</span><b>1. Memulai</b><small>Dasar penggunaan layar</small></a></li>
+        <li><a href="#profil"><span class="ms">account_balance</span><b>2. Profil Museum</b><small>Sejarah, visi misi, lokasi</small></a></li>
+        <li><a href="#koleksi"><span class="ms">auto_awesome_motion</span><b>3. Koleksi Museum</b><small>Melihat dan mencari koleksi</small></a></li>
+        <li><a href="#denah"><span class="ms">map</span><b>4. Denah Museum</b><small>Menemukan ruangan</small></a></li>
+        <li><a href="#wisata"><span class="ms">explore</span><b>5. Wisata Pasaman</b><small>Destinasi wisata sekitar</small></a></li>
+        <li><a href="#video"><span class="ms">movie_filter</span><b>6. Galeri Video</b><small>Menonton video museum</small></a></li>
+        <li><a href="#tentang"><span class="ms">info</span><b>7. Tentang</b><small>Jadwal, media sosial, QR</small></a></li>
+        <li><a href="#bantuan"><span class="ms">support_agent</span><b>8. Tips &amp; Bantuan</b><small>Keyboard layar dan bantuan</small></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= ISI PANDUAN ================= -->
+  <div class="wadah tata-letak" id="konten">
+
+    <!-- Daftar isi samping (desktop) -->
+    <aside class="daftar-isi" aria-label="Daftar isi">
+      <p class="daftar-isi-judul">Daftar Isi</p>
+      <ol>
+        <li><a href="#memulai">Memulai</a></li>
+        <li><a href="#profil">Profil Museum</a></li>
+        <li><a href="#koleksi">Koleksi Museum</a></li>
+        <li><a href="#denah">Denah Museum</a></li>
+        <li><a href="#wisata">Wisata Pasaman</a></li>
+        <li><a href="#video">Galeri Video</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#bantuan">Tips &amp; Bantuan</a></li>
+      </ol>
+    </aside>
+
+    <main class="isi">
+
+      <!-- 1. MEMULAI -->
+      <section class="topik" id="memulai" aria-labelledby="judul-memulai">
+        <header class="topik-kepala">
+          <span class="topik-ikon ms" aria-hidden="true">touch_app</span>
+          <div>
+            <p class="eyebrow">Panduan 1 dari 8</p>
+            <h2 id="judul-memulai">Memulai</h2>
+            <p class="topik-ringkas">Layar informasi ini dioperasikan cukup dengan sentuhan jari. Ikuti langkah berikut untuk mulai menjelajahi Museum Tuanku Imam Bonjol.</p>
+          </div>
+        </header>
+        <ol class="langkah">
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">play_circle</span>
+            <div>
+              <h3>Sentuh layar untuk memulai</h3>
+              <p>Saat layar menampilkan video atau gambar dengan tulisan <span class="label-layar">SENTUH LAYAR UNTUK MEMULAI</span>, sentuh bagian mana saja dari layar untuk masuk ke Beranda.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">grid_view</span>
+            <div>
+              <h3>Pilih menu di Beranda</h3>
+              <p>Beranda memiliki enam menu: <b>Profil Museum</b>, <b>Koleksi Museum</b>, <b>Denah Museum</b>, <b>Wisata Pasaman</b>, <b>Galeri Video</b>, dan <b>Tentang</b>. Sentuh salah satu kartu menu untuk membukanya.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">arrow_back</span>
+            <div>
+              <h3>Kembali ke halaman sebelumnya</h3>
+              <p>Sentuh tombol <span class="label-layar">KEMBALI</span> di pojok kiri atas untuk kembali ke halaman sebelumnya. Pada halaman detail koleksi juga tersedia tombol <span class="label-layar">HOME</span> untuk langsung ke Beranda.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">timer</span>
+            <div>
+              <h3>Layar kembali ke awal secara otomatis</h3>
+              <p>Jika layar tidak disentuh selama <b>2 menit</b>, aplikasi kembali ke layar awal agar siap digunakan oleh pengunjung berikutnya.</p>
+            </div>
+          </li>
+        </ol>
+        <aside class="tips">
+          <p class="tips-judul"><span class="ms" aria-hidden="true">lightbulb</span> Tips</p>
+          <ul>
+            <li>Cukup sentuh dengan satu jari, tidak perlu menekan layar dengan kuat.</li>
+            <li>Jam dan tanggal hari ini tampil di pojok kanan atas Beranda.</li>
+          </ul>
+        </aside>
+        <a class="ke-atas" href="#topik"><span class="ms" aria-hidden="true">arrow_upward</span> Kembali ke daftar topik</a>
+      </section>
+
+      <!-- 2. PROFIL MUSEUM -->
+      <section class="topik" id="profil" aria-labelledby="judul-profil">
+        <header class="topik-kepala">
+          <span class="topik-ikon ms" aria-hidden="true">account_balance</span>
+          <div>
+            <p class="eyebrow">Panduan 2 dari 8</p>
+            <h2 id="judul-profil">Profil Museum</h2>
+            <p class="topik-ringkas">Menu Profil Museum berisi pengenalan museum dan daerah Pasaman, visi dan misi, lokasi, jam operasional, serta struktur pengelolaan museum.</p>
+          </div>
+        </header>
+        <ol class="langkah">
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">menu</span>
+            <div>
+              <h3>Pilih submenu di sisi kiri</h3>
+              <p>Tersedia enam submenu: <b>Pengantar</b>, <b>Visi &amp; Misi</b>, <b>Profil Daerah</b>, <b>Lokasi</b>, <b>Jam Operasional</b>, dan <b>Pengelolaan</b>. Sentuh salah satunya untuk menampilkan isinya.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">slideshow</span>
+            <div>
+              <h3>Pengantar dan Profil Daerah</h3>
+              <p>Ditampilkan sebagai slide bergambar yang berganti otomatis. Sentuh <b>sisi kiri</b> gambar untuk kembali ke slide sebelumnya, atau <b>sisi kanan</b> gambar untuk lanjut ke slide berikutnya.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">schedule</span>
+            <div>
+              <h3>Lokasi dan Jam Operasional</h3>
+              <p>Submenu Lokasi memuat alamat lengkap dan informasi akses menuju museum. Submenu Jam Operasional menampilkan hari dan jam buka museum.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">account_tree</span>
+            <div>
+              <h3>Struktur Pengelolaan</h3>
+              <p>Submenu Pengelolaan menampilkan susunan pengelola museum. Sentuh kotak jabatan untuk membuka atau menutup susunan di bawahnya.</p>
+            </div>
+          </li>
+        </ol>
+        <a class="ke-atas" href="#topik"><span class="ms" aria-hidden="true">arrow_upward</span> Kembali ke daftar topik</a>
+      </section>
+
+      <!-- 3. KOLEKSI MUSEUM -->
+      <section class="topik" id="koleksi" aria-labelledby="judul-koleksi">
+        <header class="topik-kepala">
+          <span class="topik-ikon ms" aria-hidden="true">auto_awesome_motion</span>
+          <div>
+            <p class="eyebrow">Panduan 3 dari 8</p>
+            <h2 id="judul-koleksi">Koleksi Museum</h2>
+            <p class="topik-ringkas">Menu Koleksi Museum menampilkan benda-benda koleksi museum lengkap dengan foto, data, deskripsi fisik, dan cerita sejarahnya.</p>
+          </div>
+        </header>
+        <ol class="langkah">
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">filter_list</span>
+            <div>
+              <h3>Saring berdasarkan kategori</h3>
+              <p>Sentuh nama kategori di bagian atas (misalnya <span class="label-layar">Semua</span>, Historika, Etnografika, atau Numismatika) untuk menampilkan koleksi dari kategori tersebut. Geser deretan kategori ke kiri atau kanan bila belum terlihat semuanya.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">search</span>
+            <div>
+              <h3>Cari nama koleksi</h3>
+              <p>Sentuh kolom <span class="label-layar">Cari Nama Koleksi...</span> di kanan atas. Keyboard akan muncul di layar; ketik nama benda dan daftar langsung tersaring. Sentuh tanda <b>X</b> pada kolom untuk menghapus pencarian.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">swipe_up</span>
+            <div>
+              <h3>Gulir untuk melihat koleksi lainnya</h3>
+              <p>Usap daftar koleksi ke atas untuk melihat koleksi berikutnya. Koleksi tambahan dimuat otomatis, dan jumlah koleksi yang tampil tertulis di bagian bawah layar.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">open_in_full</span>
+            <div>
+              <h3>Buka detail koleksi</h3>
+              <p>Sentuh kartu koleksi untuk melihat foto besar beserta datanya: kategori, nomor registrasi, nomor inventaris, asal, bahan, kondisi, dan ukuran benda.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">photo_library</span>
+            <div>
+              <h3>Lihat foto atau video lainnya</h3>
+              <p>Jika koleksi memiliki lebih dari satu foto atau video, sentuh gambar kecil di bawah foto utama untuk menampilkannya.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">menu_book</span>
+            <div>
+              <h3>Baca deskripsi dan cerita sejarah</h3>
+              <p>Sentuh tab <span class="label-layar">Deskripsi Fisik</span> atau <span class="label-layar">Cerita Sejarah</span>. Jika teksnya panjang, usap teks ke atas untuk membaca selengkapnya.</p>
+            </div>
+          </li>
+        </ol>
+        <aside class="tips">
+          <p class="tips-judul"><span class="ms" aria-hidden="true">lightbulb</span> Tips</p>
+          <ul>
+            <li>Tidak menemukan koleksi? Pastikan kategori yang dipilih adalah <b>Semua</b>, lalu coba ketik sebagian nama benda saja.</li>
+          </ul>
+        </aside>
+        <a class="ke-atas" href="#topik"><span class="ms" aria-hidden="true">arrow_upward</span> Kembali ke daftar topik</a>
+      </section>
+
+      <!-- 4. DENAH MUSEUM -->
+      <section class="topik" id="denah" aria-labelledby="judul-denah">
+        <header class="topik-kepala">
+          <span class="topik-ikon ms" aria-hidden="true">map</span>
+          <div>
+            <p class="eyebrow">Panduan 4 dari 8</p>
+            <h2 id="judul-denah">Denah Museum</h2>
+            <p class="topik-ringkas">Menu Denah Museum menampilkan peta ruangan setiap lantai beserta keterangan singkat isi setiap ruangan.</p>
+          </div>
+        </header>
+        <ol class="langkah">
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">layers</span>
+            <div>
+              <h3>Pilih lantai</h3>
+              <p>Sentuh tombol <span class="label-layar">Lantai 1</span> atau <span class="label-layar">Lantai 2</span> di bawah judul untuk menampilkan denah lantai tersebut.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">ads_click</span>
+            <div>
+              <h3>Sentuh ruangan pada denah</h3>
+              <p>Sentuh salah satu ruangan pada gambar denah. Ruangan tersebut akan ditandai, dan panel di sisi kanan menampilkan nama serta penjelasan singkat ruangan.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">close</span>
+            <div>
+              <h3>Tutup panel informasi</h3>
+              <p>Sentuh tanda <b>X</b> pada panel untuk menutupnya dan melihat denah secara penuh kembali.</p>
+            </div>
+          </li>
+        </ol>
+        <aside class="tips">
+          <p class="tips-judul"><span class="ms" aria-hidden="true">lightbulb</span> Tips</p>
+          <ul>
+            <li>Gunakan denah untuk menemukan area seperti Area Koleksi Senjata, Area Lukisan, Area Diorama Maket Perang Padri, dan Area Koleksi Keramik.</li>
+          </ul>
+        </aside>
+        <a class="ke-atas" href="#topik"><span class="ms" aria-hidden="true">arrow_upward</span> Kembali ke daftar topik</a>
+      </section>
+
+      <!-- 5. WISATA PASAMAN -->
+      <section class="topik" id="wisata" aria-labelledby="judul-wisata">
+        <header class="topik-kepala">
+          <span class="topik-ikon ms" aria-hidden="true">explore</span>
+          <div>
+            <p class="eyebrow">Panduan 5 dari 8</p>
+            <h2 id="judul-wisata">Wisata Pasaman</h2>
+            <p class="topik-ringkas">Menu Wisata Pasaman memperkenalkan destinasi wisata di Kabupaten Pasaman yang dapat Anda kunjungi setelah dari museum.</p>
+          </div>
+        </header>
+        <ol class="langkah">
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">landscape</span>
+            <div>
+              <h3>Baca informasi destinasi</h3>
+              <p>Halaman langsung menampilkan satu destinasi wisata beserta foto dan namanya.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">tab</span>
+            <div>
+              <h3>Tab Deskripsi dan Lokasi</h3>
+              <p>Sentuh tab <span class="label-layar">Deskripsi</span> untuk membaca penjelasan destinasi, atau tab <span class="label-layar">Lokasi</span> untuk melihat alamatnya.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">location_on</span>
+            <div>
+              <h3>Lihat di Google Maps</h3>
+              <p>Pada tab Lokasi, sentuh <span class="label-layar">Lihat di Google Maps</span> untuk membuka peta destinasi. Fitur ini memerlukan koneksi internet; jika tidak tersedia, akan muncul pemberitahuan di layar.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">travel_explore</span>
+            <div>
+              <h3>Pilih destinasi lain</h3>
+              <p>Sentuh salah satu destinasi pada daftar <span class="label-layar">DESTINASI LAIN</span> di sisi kanan untuk berpindah ke destinasi tersebut.</p>
+            </div>
+          </li>
+        </ol>
+        <a class="ke-atas" href="#topik"><span class="ms" aria-hidden="true">arrow_upward</span> Kembali ke daftar topik</a>
+      </section>
+
+      <!-- 6. GALERI VIDEO -->
+      <section class="topik" id="video" aria-labelledby="judul-video">
+        <header class="topik-kepala">
+          <span class="topik-ikon ms" aria-hidden="true">movie_filter</span>
+          <div>
+            <p class="eyebrow">Panduan 6 dari 8</p>
+            <h2 id="judul-video">Galeri Video</h2>
+            <p class="topik-ringkas">Menu Galeri Video berisi video pesan tokoh dan video sinematik keindahan Pasaman.</p>
+          </div>
+        </header>
+        <ol class="langkah">
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">video_library</span>
+            <div>
+              <h3>Pilih jenis video</h3>
+              <p>Sentuh <span class="label-layar">Pesan Tokoh</span> untuk video pesan dan kesan tokoh, atau <span class="label-layar">Pesona Pasaman</span> untuk video sinematik keindahan Pasaman.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">play_arrow</span>
+            <div>
+              <h3>Putar video</h3>
+              <p>Sentuh salah satu video pada daftar untuk memutarnya di layar penuh.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">pause_circle</span>
+            <div>
+              <h3>Jeda dan lanjutkan</h3>
+              <p>Sentuh layar saat video berputar untuk memunculkan tombol. Sentuh tombol besar di tengah untuk menjeda atau melanjutkan video. Tombol akan tersembunyi sendiri setelah beberapa detik.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">close</span>
+            <div>
+              <h3>Tutup video</h3>
+              <p>Sentuh tanda <b>X</b> di pojok kanan atas untuk menutup video dan kembali ke daftar video.</p>
+            </div>
+          </li>
+        </ol>
+        <aside class="tips">
+          <p class="tips-judul"><span class="ms" aria-hidden="true">lightbulb</span> Tips</p>
+          <ul>
+            <li>Untuk video yang panjang, sentuh layar sesekali agar tampilan tidak kembali ke layar awal.</li>
+          </ul>
+        </aside>
+        <a class="ke-atas" href="#topik"><span class="ms" aria-hidden="true">arrow_upward</span> Kembali ke daftar topik</a>
+      </section>
+
+      <!-- 7. TENTANG -->
+      <section class="topik" id="tentang" aria-labelledby="judul-tentang">
+        <header class="topik-kepala">
+          <span class="topik-ikon ms" aria-hidden="true">info</span>
+          <div>
+            <p class="eyebrow">Panduan 7 dari 8</p>
+            <h2 id="judul-tentang">Tentang</h2>
+            <p class="topik-ringkas">Menu Tentang berisi jadwal kegiatan museum, akun media sosial resmi, kode QR, dan informasi aplikasi.</p>
+          </div>
+        </header>
+        <ol class="langkah">
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">calendar_today</span>
+            <div>
+              <h3>Jadwal Kegiatan</h3>
+              <p>Menampilkan daftar kegiatan museum lengkap dengan hari dan tanggalnya.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">share</span>
+            <div>
+              <h3>Media Sosial</h3>
+              <p>Menampilkan akun media sosial resmi museum yang dapat Anda ikuti untuk mendapatkan kabar terbaru.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">qr_code_scanner</span>
+            <div>
+              <h3>QR Code</h3>
+              <p>Arahkan kamera ponsel Anda ke kode QR yang tampil di layar untuk membuka informasi digital museum langsung di ponsel.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">phonelink_setup</span>
+            <div>
+              <h3>Info Aplikasi</h3>
+              <p>Menampilkan informasi mengenai aplikasi layar informasi museum ini.</p>
+            </div>
+          </li>
+        </ol>
+        <a class="ke-atas" href="#topik"><span class="ms" aria-hidden="true">arrow_upward</span> Kembali ke daftar topik</a>
+      </section>
+
+      <!-- 8. TIPS & BANTUAN -->
+      <section class="topik" id="bantuan" aria-labelledby="judul-bantuan">
+        <header class="topik-kepala">
+          <span class="topik-ikon ms" aria-hidden="true">support_agent</span>
+          <div>
+            <p class="eyebrow">Panduan 8 dari 8</p>
+            <h2 id="judul-bantuan">Tips &amp; Bantuan</h2>
+            <p class="topik-ringkas">Beberapa hal yang membantu Anda menggunakan layar informasi dengan nyaman.</p>
+          </div>
+        </header>
+        <ol class="langkah">
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">keyboard</span>
+            <div>
+              <h3>Menggunakan keyboard di layar</h3>
+              <p>Keyboard muncul otomatis saat Anda menyentuh kolom ketik. Sentuh <span class="label-layar">123</span> untuk angka dan simbol, <span class="label-layar">ABC</span> untuk kembali ke huruf, <span class="label-layar">SPASI</span> untuk jarak antarkata, dan <span class="label-layar">DONE</span> untuk menutup keyboard.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">keyboard_hide</span>
+            <div>
+              <h3>Menutup keyboard</h3>
+              <p>Selain dengan tombol <span class="label-layar">DONE</span>, keyboard juga tertutup bila Anda menyentuh bagian layar di luar keyboard.</p>
+            </div>
+          </li>
+          <li>
+            <span class="langkah-ikon ms" aria-hidden="true">support_agent</span>
+            <div>
+              <h3>Membutuhkan bantuan?</h3>
+              <p>Jika layar tidak merespons atau Anda memerlukan informasi lebih lanjut, silakan hubungi petugas museum di meja resepsionis.</p>
+            </div>
+          </li>
+        </ol>
+        <aside class="tips">
+          <p class="tips-judul"><span class="ms" aria-hidden="true">lightbulb</span> Tips</p>
+          <ul>
+            <li>Mohon gunakan layar dengan hati-hati dan bergantian dengan pengunjung lain.</li>
+            <li>Selamat menjelajahi sejarah perjuangan Tuanku Imam Bonjol!</li>
+          </ul>
+        </aside>
+        <a class="ke-atas" href="#topik"><span class="ms" aria-hidden="true">arrow_upward</span> Kembali ke daftar topik</a>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- ================= INFO KUNJUNGAN ================= -->
+  <section id="kunjungan" class="bagian bagian-gelap">
+    <div class="wadah">
+      <p class="eyebrow">Info Kunjungan</p>
+      <h2 class="judul-bagian">Museum Tuanku Imam Bonjol</h2>
+      <div class="grid-info">
+        <div class="kartu-info">
+          <span class="ms" aria-hidden="true">location_on</span>
+          <h3>Alamat</h3>
+          <p>Jl. Lintas Sumatera, Ganggo Hilia, Kec. Bonjol, Kabupaten Pasaman, Sumatera Barat 26381</p>
+          <p class="catatan">Berada di kawasan Tugu Equator Bonjol, dilintasi garis nol derajat khatulistiwa.</p>
+        </div>
+        <div class="kartu-info">
+          <span class="ms" aria-hidden="true">schedule</span>
+          <h3>Jam Operasional</h3>
+          <table class="tabel-jam">
+            <tbody>
+              <tr><th scope="row">Selasa – Kamis</th><td>08.00 – 16.00 WIB</td></tr>
+              <tr><th scope="row">Jumat</th><td>08.00 – 16.30 WIB</td></tr>
+              <tr><th scope="row">Sabtu – Minggu</th><td>08.00 – 16.00 WIB</td></tr>
+              <tr class="tutup"><th scope="row">Senin</th><td>Tutup (perawatan)</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="kartu-info">
+          <span class="ms" aria-hidden="true">directions_car</span>
+          <h3>Akses &amp; Fasilitas</h3>
+          <p>Dapat diakses dengan kendaraan roda 2, roda 4, maupun bus pariwisata melalui jalur utama Lintas Sumatera. Tersedia area parkir, musala, dan ruang terbuka publik di sekitar museum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="kaki">
+    <div class="wadah kaki-isi">
+      <p><strong>Museum Tuanku Imam Bonjol</strong> · Kabupaten Pasaman, Sumatera Barat</p>
+      <p class="kaki-kecil">Panduan penggunaan layar informasi interaktif untuk pengunjung.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js" defer></script>
+</body>
+</html>
